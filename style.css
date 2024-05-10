@@ -1,0 +1,160 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display');
+*
+{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif; 
+}
+body
+{
+    display: flex;
+    overflow: hidden;
+}
+header
+{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 30px 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    transition: 1s;
+}
+header .logo
+{
+    position: relative;
+    font-size: 2em;
+    color: #bca898;
+    text-transform: uppercase;
+    font-weight: 700;
+    text-decoration: none;
+    letter-spacing: 1px;
+}
+header .nav 
+{
+    position: relative;
+    display: flex;
+}
+header .nav li
+{
+    list-style: none;
+}
+header .nav li a
+{
+    display: inline-block;
+    color: #bca898;
+    margin-right: 40px;
+    text-decoration: none;
+    padding: 5px 10px;
+    transition: 1s;
+}
+header .nav li a:hover
+{
+    border: 2px solid #bca898;
+}
+
+.content
+{
+    height: 100vh;
+    width: 50%;
+    background: #20232a;
+}
+.content h1
+{
+    position: relative;
+    top: 30%;
+    left:30%;
+    color: #bca898;
+    font-size: 3em;
+}
+.content .para
+{
+    position: relative;
+    width: 250px;
+    height: auto;
+    left: 0;
+    bottom: -400px;
+    background: rgba(225,255,255,0.05);
+    box-shadow: 0 15px 35px rgba(0,0,0,0.5);
+    backdrop-filter: blur(10px);
+    boarder: 1px solid rgba(255,255,255);
+    padding: 10px;
+}
+.content .para h4
+{
+    position: relative;
+    font-size: 15px;
+    left: 150px;
+    color: #bca898;
+    padding: 5px;
+}
+.content .para p
+{
+    position: relative;
+    font-size: 15px;
+    left: 150px;
+    color: #bca898;
+    padding: 5px;
+}
+
+.img
+{
+    height: 100vh;
+    width: 50%;
+    background: #2b2f38;
+}
+.img img
+{
+    position: absolute;
+    top: 150px;
+    left: 620px;
+    height: 500px;
+    width: auto;
+}
+.img h1
+{
+    font-size: 10em;
+    color: #262a33;
+}
+.img .para
+{
+    position: absolute;
+    width: 250px;
+    height: auto;
+    left: 0;
+    bottom: -400px;
+    background: rgba(225,255,255,0.05);
+    box-shadow: 0 15px 35px rgba(0,0,0,0.5);
+    backdrop-filter: blur(10px);
+    boarder: 1px solid rgba(255,255,255,0.25);
+    padding: 10px;
+}
+.img .para h4
+{
+    position: relative;
+    font-size: 15px;
+    left: 50px;
+    color: #bca898;
+    padding: 5px;
+}
+.img .para p
+{
+        position: relative;
+        font-size: 10px;
+        left: 50px;
+        color: #bca898;
+        padding: 5px;
+}
+
+
+
+
+
+
+
+
+
+
